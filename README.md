@@ -17,5 +17,9 @@ Before you can use this script, you need to set up your AWS environment:
 - **Python**: This script is written in Python. Ensure you have Python installed on your system. [Download Python](https://www.python.org/downloads/).
 - **Boto3**: Boto3 is the Amazon Web Services (AWS) SDK for Python. Install it using pip: 'pip install boto3'
 
+## Usage
+1. When you run the script, it will prompt you to enter an AMI ID.
+2. Enter the AMI ID (e.g., ami-123456789d321a34).
+3. The script will then list all the EC2 instances using the specified AMI, along with the AMI name and instance names.
 
 
